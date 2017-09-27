@@ -10,11 +10,11 @@
     	<groupId>org.apache.maven.surefire</groupId>
     	<artifactId>surefire-api</artifactId>
     	<version>2.20.1</version>
-    	<configuration>
+    	<!-- configuration>
     		<suiteXmlFiles>
     			<suiteXmlFiles>testng.xml</suiteXmlFiles>
     		</suiteXmlFiles>
-    	</configuration>
+    	</configuration-->
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 	<dependency>
@@ -39,4 +39,21 @@
 	</dependency>
 	
 </dependencies>	
+<build>
+	<pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+            	<artifactId>maven-surefire-report-plugin</artifactId>
+            	<version>2.19.1</version>
+            	<configuration>
+            		<suiteXmlfiles>
+            			<suiteXmlfile>testng.xml</suiteXmlfile>
+            		</suiteXmlfiles>
+            	</configuration>
+          
+			</plugin>
+		</plugins>
+	</pluginManagement>
+</build>
 </project>
