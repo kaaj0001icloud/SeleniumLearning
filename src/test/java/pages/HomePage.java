@@ -21,5 +21,18 @@ public class HomePage {
 	@FindBy(xpath = "//*[@id='nav-flyout-shopAll']/div[2]/span[5]/span")
 	WebElement tvAndAppliances;
 	
+		
+
+
+	public void enterSearchCriteria(String searchItem){
+	
+		try{
+			searchBox.sendKeys(searchItem);
+			searchButton.click();
+		}
+		catch(Exception e){
+			e.printStackTrace();
+		}
+	}
 	
 }
