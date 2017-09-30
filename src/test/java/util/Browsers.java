@@ -10,11 +10,11 @@ public class Browsers {
 	public WebDriver get(String browser){
 		try{
 		if(browser.equalsIgnoreCase("firefox")){
-			System.getProperty("webdriver.gecko.driver","/Users/gopalchettykalangi/Documents/Selenium/Edurekha/3.1/geckodriver");
+			System.getProperty("webdriver.gecko.driver",TestConfig.firefox);
 			driver = new FirefoxDriver();
 		}
 		else if(browser.equalsIgnoreCase("chrome")){
-			System.getProperty("webdriver.chrome.driver","/Users/gopalchettykalangi/Documents/Selenium/Edurekha/3.1/chromedriver");
+			System.getProperty("webdriver.chrome.driver",TestConfig.chrome);
 			driver = new ChromeDriver();
 		}
 		
