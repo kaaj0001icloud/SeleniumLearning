@@ -2,22 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="63" started-at="2017-10-01T19:33:45Z" finished-at="2017-10-01T19:33:45Z">
+  <suite name="Default suite" duration-ms="71" started-at="2017-10-16T21:47:08Z" finished-at="2017-10-16T21:47:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="63" started-at="2017-10-01T19:33:45Z" finished-at="2017-10-01T19:33:45Z">
-      <class name="testCore.core">
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:testCore.core@204f30ec]" name="testSetup" is-config="true" duration-ms="40" started-at="2017-10-02T01:03:44Z" finished-at="2017-10-02T01:03:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSetup -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCore.core@204f30ec]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-02T01:03:45Z" finished-at="2017-10-02T01:03:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCore.core -->
+    <test name="Default test" duration-ms="71" started-at="2017-10-16T21:47:08Z" finished-at="2017-10-16T21:47:08Z">
       <class name="testCases.VerifyProduct">
-        <test-method status="PASS" signature="VerifyPrice()[pri:0, instance:testCases.VerifyProduct@e25b2fe]" name="VerifyPrice" duration-ms="13" started-at="2017-10-02T01:03:45Z" finished-at="2017-10-02T01:03:45Z">
+        <test-method status="PASS" signature="VerifyPrice()[pri:0, instance:testCases.VerifyProduct@47c62251]" name="VerifyPrice" duration-ms="28" started-at="2017-10-17T03:17:08Z" finished-at="2017-10-17T03:17:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyPrice -->
