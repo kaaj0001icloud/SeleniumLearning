@@ -23,3 +23,5 @@ Maven Dependencies
 		</pluginManagement>
 	</build>
 
+5. Proxy setup in .m2 folder, settings.xml for Maven
+6. Download testng from eclipse market place to get the Run configurations enabled.

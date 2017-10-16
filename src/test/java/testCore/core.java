@@ -22,7 +22,8 @@ public class core {
 		
 	}
 	
-	public void setBrowserProperties(){
+	public void setBrowserProperties() throws InterruptedException{
+		
 		
 	}
 	

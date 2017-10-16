@@ -3,9 +3,11 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.Select;
 
 public class SearchResultsPage {
+	
 	
 	WebDriver driver;
 	@FindBy(xpath = "//*[@id='result_0']/div/div[3]/div[1]/a/h2")
